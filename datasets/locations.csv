@@ -1,0 +1,16 @@
+LocationID,City,Country,Latitude_Center,Longitude_Center,Region
+1,, india ,28.6139,77.209,NCR
+2,Gurgaon,India,28.4595,77.0266,NCR
+3,Noida,India,28.5355,77.391,NCR
+4,Faridabad,India,28.4089,77.3178,NCR
+5,,India,19.076,72.8777,asia
+6,Bangalore,India,12.9716,77.5946,Asia
+7,Pune,India,18.5204,73.8567,Asia
+8,Hyderabad,India,17.385,78.4867,Asia
+9,Chennai,India,13.0827,80.2707,Asia
+10,Kolkata,India,22.5726,88.3639,Asia
+11,Jaipur,India,26.9124,75.7873,Asia
+12,Ahmedabad,India,23.0225,72.5714,Asia
+13,Dubai,UAE,25.2048,55.2708,Middle East
+14,London,United Kingdom,51.5074,-0.1278,Europe
+15,Singapore,Singapore,1.3521,103.8198,Asia

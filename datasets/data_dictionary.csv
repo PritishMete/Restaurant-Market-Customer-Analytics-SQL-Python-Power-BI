@@ -1,0 +1,13 @@
+Table,Column,Type,Notes
+restaurants,RestaurantID,Primary key,Unique restaurant identifier; duplicates intentionally exist in some rows
+restaurants,LocationID,Foreign key,Links to locations
+restaurants,Price range,Categorical,1-4; invalid values intentionally included
+restaurants,Aggregate rating,Numeric,0-5; missing values intentionally included
+restaurants,Votes,Numeric,Customer vote count; missing values intentionally included
+services,RestaurantID,Foreign key,Links to restaurants
+services,Has Online delivery,Categorical,Yes/No plus messy variants and blanks
+services,Has Table booking,Categorical,Yes/No plus messy variants and blanks
+restaurant_cuisines,RestaurantID,Foreign key,Many-to-many restaurant link
+restaurant_cuisines,CuisineID,Foreign key,Many-to-many cuisine link
+reviews,RestaurantID,Foreign key,Links review to restaurant
+reviews,ReviewText,Text,Synthetic review text for NLP exercises
